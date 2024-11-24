@@ -11,7 +11,7 @@ const veiculosRotas = require('./routes/veiculos');
 
 // definição de parâmetros do servidor
 const hostname = '127.0.0.1';
-const port = 3000;
+const port = 8080;
 
 app.get('/', (req, res) => {
   res.send('Esta é a raiz do servidor.')
